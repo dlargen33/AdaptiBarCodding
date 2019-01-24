@@ -1,0 +1,95 @@
+.add-card-buttons {
+    align-items: baseline;
+}
+
+.add-card-buttons div:first-child {
+    text-align: right;
+    order: 3;
+}
+
+.add-card-buttons div:last-child {
+    text-align: left;
+    order: 1;
+}
+
+.blog-post-row {
+    align-items: center;
+    border-top: 1px solid #606060;
+    justify-content: space-between;
+    min-height: 49px;
+    padding: 0.75rem;
+}
+
+.blog-post-row > div {
+    padding: 0;
+}
+
+.btn {
+    font-family: "Bitter", sans-serif !important;
+    min-width: 180px;
+}
+
+.btn-cancel {
+  text-decoration: none;
+}
+
+.btn-gold {
+    color: #fff;
+    background-color: #d0a338;
+    border-color: #d0a338;
+}
+
+.btn-gold:hover {
+    color: #fff;
+    background-color: #bd8f35;
+    border-color: #b08631;
+}
+
+.btn-gold:focus, .btn-gold.focus {
+  box-shadow: 0 0 0 0.2rem rgba(208, 163, 56, 0.5);
+}
+
+.btn-gold.disabled, .btn-gold:disabled {
+  color: #fff;
+  background-color: #d0a338;
+  border-color: #d0a338;
+}
+
+.btn-gold:not(:disabled):not(.disabled):active, .btn-gold:not(:disabled):not(.disabled).active,
+.show > .btn-gold.dropdown-toggle {
+  color: #fff;
+  background-color: #b08631;
+  border-color: #a77f2f;
+}
+
+.btn-gold:not(:disabled):not(.disabled):active:focus, .btn-gold:not(:disabled):not(.disabled).active:focus,
+.show > .btn-gold.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(208, 163, 56, 0.5);
+}
+
+.card {
+    background-color: #000 !important;
+    border: 2px solid #fff !important;
+    margin: 10px 0px 0 0px;
+}
+
+.card > .card-header:first-child {
+    padding-top: 1rem;
+}
+
+.card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.card-header {
+    border-bottom: 1px solid #dee2e6;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.delete-blog-post-body {
+    text-align: right;
+    margin-top: 0;
+    /* flex: 0 0 29; */
+}

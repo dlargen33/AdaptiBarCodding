@@ -1,0 +1,21 @@
+<div class="delete-confirm">
+    <a class="btn btn-sm btn-danger delete" href="javascript:void(0)" (click)="isShowing=true">
+        <div #ref><ng-content></ng-content></div>
+        <i class="fa fa-trash" *ngIf="ref.childNodes.length==0"></i>
+    </a>
+    <div class="delete-confirm-question container-fluid" *ngIf="isShowing">
+        <div class="row">
+            <div class="col-12">
+                <span [innerHTML]="message"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button class='btn btn-secondary btn-x-sm' (click)='sendCancel()'><i class="fa fa-times"> Cancel</i></button>
+            </div>
+            <div class="col-6">
+                <button class='btn btn-danger btn-x-sm' (click)='sendConfirm()'><i class="fa fa-check"> Delete</i></button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+<div class="container">
+    <ngx-loading [show]="isLoading"></ngx-loading>
+    <div *ngIf="isLoading === false && blogPosts.length === 0" class= "row">
+            <div class="col-12">
+                    You do not currently have any blog posts.
+            </div>
+            <div class="col-12">
+                <button class="btn btn-small btn-gold" (click)="createBlogPost()">Create A Post</button>
+            </div>
+    </div>
+
+    <div class="card-header container" *ngIf="isLoading === false && blogPosts.length > 0">
+        <div class="row blog-post-row" >
+            <div class="col-6">Blog</div>
+            <div class="col-4">Created</div>
+            <div class="col-2"></div>
+        </div>
+        
+        <div class="row blog-post-row" *ngFor="let blogPost of blogPosts">
+            <div class="col-6">{{blogPost.blogText}}</div> 
+            <div class="col-4">{{blogPost.createdDateTime | date:'medium'}}</div> 
+            <div class="col-2 delete-blog-post-body"><confirmation-dialog (confirm)="deleteBlogPost(blogPost.id)"></confirmation-dialog></div>
+        </div>        
+    </div>   
+    <br/>
+    <div *ngIf="isLoading === false && blogPosts.length > 0">
+        <div class="col-12">
+            <button class="btn btn-small btn-gold" (click)="createBlogPost()">Create A Post</button>
+        </div>
+    </div>     
+</div>
+
+<div *ngIf="isAdding === true"> 
+    <form (ngSubmit)="epm.form.valid && submitBlogPost(epm)" #epm="ngForm" novalidate>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="blogText">Blog Text</label>
+                    <textarea class="form-control" rows="3" name="blogText" [(ngModel)]="model.blogText" #blogText="ngModel" required></textarea>
+                    <div *ngIf="epm.submitted && !blogText.valid" class="text-danger">Required</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="add-card-buttons row">
+            <div class="col-lg-3 col-sm-3"><button class="btn btn-small btn-gold" type="submit" >Save</button></div>
+            <div class="col-lg-3 col-sm-3"><button class="btn btn-small btn-secondary" (click)="cancelCreateBlogPost()">Cancel</button></div>
+        </div>
+</form>
+</div>
+  
+
+
+

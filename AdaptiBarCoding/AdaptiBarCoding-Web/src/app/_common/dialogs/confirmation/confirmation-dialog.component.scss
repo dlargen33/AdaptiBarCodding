@@ -1,0 +1,41 @@
+.btn-danger {
+}
+
+.delete {
+    min-width: 10px;
+}
+
+.delete-confirm {
+    background-color: transparent;
+}
+
+.delete-confirm-btn {
+    color: #dc3545;
+}
+
+.delete-confirm-question {
+    background-color: #7d1620;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px #111 !important;
+    color: #fff;
+    float: left;
+    margin: 2px -177px;
+    width: 235px;
+    padding: 4px 15px 9px 15px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.delete-confirm-question button {
+    margin-top: 5px;
+    min-width: 20px;
+}
+
+.delete-confirm-question i {
+    color: #fff;
+}
+
+.fa-times, fa-check {
+    color: #fff !important;
+}
