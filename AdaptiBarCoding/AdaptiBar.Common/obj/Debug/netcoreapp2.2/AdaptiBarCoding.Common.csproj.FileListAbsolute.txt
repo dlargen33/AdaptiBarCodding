@@ -1,0 +1,9 @@
+Z:\work\AdaptiBarCoding\AdaptiBar.Common\bin\Debug\netcoreapp2.2\AdaptiBarCoding.Common.deps.json
+Z:\work\AdaptiBarCoding\AdaptiBar.Common\bin\Debug\netcoreapp2.2\AdaptiBarCoding.Common.dll
+Z:\work\AdaptiBarCoding\AdaptiBar.Common\bin\Debug\netcoreapp2.2\AdaptiBarCoding.Common.pdb
+Z:\work\AdaptiBarCoding\AdaptiBar.Common\obj\Debug\netcoreapp2.2\AdaptiBarCoding.Common.csprojAssemblyReference.cache
+Z:\work\AdaptiBarCoding\AdaptiBar.Common\obj\Debug\netcoreapp2.2\AdaptiBarCoding.Common.csproj.CoreCompileInputs.cache
+Z:\work\AdaptiBarCoding\AdaptiBar.Common\obj\Debug\netcoreapp2.2\AdaptiBarCoding.Common.AssemblyInfoInputs.cache
+Z:\work\AdaptiBarCoding\AdaptiBar.Common\obj\Debug\netcoreapp2.2\AdaptiBarCoding.Common.AssemblyInfo.cs
+Z:\work\AdaptiBarCoding\AdaptiBar.Common\obj\Debug\netcoreapp2.2\AdaptiBarCoding.Common.dll
+Z:\work\AdaptiBarCoding\AdaptiBar.Common\obj\Debug\netcoreapp2.2\AdaptiBarCoding.Common.pdb

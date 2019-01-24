@@ -1,0 +1,16 @@
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\bin\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.deps.json
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\bin\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.dll
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\bin\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.pdb
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\bin\Debug\netcoreapp2.2\AdaptiBarCoding.ApplicationServices.dll
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\bin\Debug\netcoreapp2.2\AdaptiBarCoding.Common.dll
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\bin\Debug\netcoreapp2.2\AdaptiBarCoding.DataModel.dll
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\bin\Debug\netcoreapp2.2\AdaptiBarCoding.Common.pdb
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\bin\Debug\netcoreapp2.2\AdaptiBarCoding.ApplicationServices.pdb
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\bin\Debug\netcoreapp2.2\AdaptiBarCoding.DataModel.pdb
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\obj\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.csprojAssemblyReference.cache
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\obj\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.csproj.CoreCompileInputs.cache
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\obj\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.AssemblyInfoInputs.cache
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\obj\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.AssemblyInfo.cs
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\obj\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.csproj.CopyComplete
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\obj\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.dll
+Z:\work\AdaptiBarCoding\AdaptiBarCoding.DataAccess\obj\Debug\netcoreapp2.2\AdaptiBarCoding.DataAccess.pdb
