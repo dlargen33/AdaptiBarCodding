@@ -53,7 +53,7 @@ namespace AdaptiBarCoding.ApplicationServices
         {
             return await _blogPostRepository.AsQueryable()
                 .Where(x => x.Active == true)
-                .OrderBy(x => x.CreatedDateTime)
+                .OrderByDescending(x => x.CreatedDateTime)
                 .ToListAsync();
         }
 
